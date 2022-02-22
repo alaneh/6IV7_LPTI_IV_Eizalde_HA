@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAFFFE"
+    android:focusableInTouchMode="false"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Primer Parcial"
+        android:textColor="#2196F3"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/par2_mat7"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat7"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat6" />
+
+    <EditText
+        android:id="@+id/par3_mat8"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat8"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat7" />
+
+    <EditText
+        android:id="@+id/par2_mat1"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat1"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/par2_mat6"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat6"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat5" />
+
+    <EditText
+        android:id="@+id/par3_mat2"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat2"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat1" />
+
+    <EditText
+        android:id="@+id/txt_mat2"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat2"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat1" />
+
+    <EditText
+        android:id="@+id/par2_mat2"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat2"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat1" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Tercer Parcial"
+        android:textColor="#2196F3"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/par2_mat3"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat3"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat2" />
+
+    <EditText
+        android:id="@+id/par3_mat1"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat1"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <EditText
+        android:id="@+id/par2_mat5"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat5"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat4" />
+
+    <EditText
+        android:id="@+id/par3_mat5"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat5"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat4" />
+
+    <EditText
+        android:id="@+id/txt_mat7"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat7"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat6" />
+
+    <EditText
+        android:id="@+id/txt_result_parcial3"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="#B6B6B6"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        android:textColor="#2196F3"
+        app:layout_constraintStart_toEndOf="@+id/txt_result_parcial2"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat10" />
+
+    <EditText
+        android:id="@+id/par3_mat7"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat7"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat6" />
+
+    <EditText
+        android:id="@+id/txt_result_parcial1"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:background="#B6B6B6"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="number"
+        android:textColor="#2196F3"
+        app:layout_constraintStart_toEndOf="@+id/PromPar"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat10" />
+
+    <EditText
+        android:id="@+id/par3_mat6"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat6"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat5" />
+
+    <EditText
+        android:id="@+id/par2_mat4"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat4"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat3" />
+
+    <EditText
+        android:id="@+id/txt_mat9"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat9"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat8" />
+
+    <EditText
+        android:id="@+id/txt_mat3"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat3"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat2" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Segundo Parcial"
+        android:textColor="#2196F3"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/txt_mat5"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat5"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat4" />
+
+    <EditText
+        android:id="@+id/par2_mat9"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat9"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat8" />
+
+    <EditText
+        android:id="@+id/par2_mat10"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat10"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat9" />
+
+    <EditText
+        android:id="@+id/txt_result_parcial2"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="#B6B6B6"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="number"
+        android:textColor="#2196F3"
+        app:layout_constraintStart_toEndOf="@+id/txt_result_parcial1"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat10" />
+
+    <EditText
+        android:id="@+id/par3_mat3"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat3"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat2" />
+
+    <EditText
+        android:id="@+id/txt_mat1"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/par2_mat8"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/txt_mat8"
+        app:layout_constraintTop_toBottomOf="@+id/par2_mat7" />
+
+    <EditText
+        android:id="@+id/par3_mat9"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat9"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat8" />
+
+    <EditText
+        android:id="@+id/par3_mat10"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat10"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat9" />
+
+    <EditText
+        android:id="@+id/txt_mat6"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat6"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat5" />
+
+    <EditText
+        android:id="@+id/txt_mat8"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat8"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat7" />
+
+    <EditText
+        android:id="@+id/txt_mat10"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat10"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat9" />
+
+    <EditText
+        android:id="@+id/txt_result_semestre"
+        android:layout_width="97dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="#B6B6B6"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:inputType="number"
+        android:text="Semestre"
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/txt_result_parcial3"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat10" />
+
+    <EditText
+        android:id="@+id/pro_mat3"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusableInTouchMode="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat3"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat2" />
+
+    <EditText
+        android:id="@+id/pro_mat8"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat8"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat7" />
+
+    <EditText
+        android:id="@+id/pro_mat2"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat2"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat1" />
+
+    <EditText
+        android:id="@+id/pro_mat10"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat10"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat9" />
+
+    <EditText
+        android:id="@+id/pro_mat9"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat9"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat8" />
+
+    <EditText
+        android:id="@+id/pro_mat6"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat6"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat5" />
+
+    <EditText
+        android:id="@+id/pro_mat1"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat1"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/pro_mat7"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat7"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat6" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="99dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Promedio por Materia"
+        android:textColor="#00BCD4"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/pro_mat5"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat5"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat4" />
+
+    <EditText
+        android:id="@+id/pro_mat4"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/par3_mat4"
+        app:layout_constraintTop_toBottomOf="@+id/pro_mat3" />
+
+    <EditText
+        android:id="@+id/txt_mat4"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/nomMat4"
+        app:layout_constraintTop_toBottomOf="@+id/txt_mat3" />
+
+    <EditText
+        android:id="@+id/par3_mat4"
+        android:layout_width="59dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/par2_mat4"
+        app:layout_constraintTop_toBottomOf="@+id/par3_mat3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="132dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="32dp"
+        android:autoText="false"
+        android:backgroundTint="#77A2C6"
+        android:foregroundTint="#00FFFFFF"
+        android:onClick="promedio"
+        android:text="Calcular"
+        android:textColor="#F8F0F4"
+        android:textColorHint="#00292828"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_result_parcial2" />
+
+    <TextView
+        android:id="@+id/nomMat2"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Fisica IV"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat" />
+
+    <TextView
+        android:id="@+id/nomMat10"
+        android:layout_width="90dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Laboratorio"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat9" />
+
+    <TextView
+        android:id="@+id/nomMat6"
+        android:layout_width="86dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Metodos "
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat5" />
+
+    <TextView
+        android:id="@+id/nomMat8"
+        android:layout_width="88dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Ing. de Software "
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat7" />
+
+    <TextView
+        android:id="@+id/nomMat9"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Proyecto Integrador"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat8" />
+
+    <TextView
+        android:id="@+id/nomMat7"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Soporte de Software"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat6" />
+
+    <TextView
+        android:id="@+id/nomMat"
+        android:layout_width="103dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Probabilidad"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nomMat4"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Ingles VI"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat3" />
+
+    <TextView
+        android:id="@+id/PromPar"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Promedio Parcial"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat10" />
+
+    <TextView
+        android:id="@+id/nomMat3"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Quimica IV"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat2" />
+
+    <TextView
+        android:id="@+id/nomMat5"
+        android:layout_width="89dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="Orientacion IV"
+        android:textColor="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nomMat4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="Elizalde Hernández Alan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="130dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
